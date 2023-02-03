@@ -1,0 +1,130 @@
+body{
+  text-align: center
+}
+h1,h2{
+  color: limegreen;
+  text-align: center;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  font-weight: 5rem;
+}
+/*--top section--*/
+
+.top-container{
+  position: relative;
+  background-color:lightgreen;
+  font-family: Sacramento,cursive;
+  width: auto;
+}
+.top{
+padding-top: 100px;
+ padding-left: 500px;
+
+}
+.bottom{
+  padding-bottom: 200px;
+}
+
+/* --middle section--*/
+
+.profile{
+  background-color: lightcyan;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.profile-img{
+  height: 25%;
+  width: 20%;
+  border-radius: 50%;
+}
+.profile-details{
+  padding: 0 30%;
+}
+
+
+.middle-container{
+  text-align: left;
+
+}
+
+.skill{
+  background-color: lightcyan;
+  padding: 7% 15%;
+  text-align: left;
+ 
+}
+
+.skill-img{
+  width: 25%;
+  border-radius: 10%;
+  float: right;
+  display: flex; 
+}
+.skill-details{
+  text-align: left;
+}
+
+.education{
+  background-color: lightgreen;
+  padding: 7% 15%;
+  text-align: left;
+}
+.education-img{
+  width: 25%;
+  border-radius: 10%;
+  float: left;
+  margin-right: 50px;
+  
+}
+
+.projects{
+  background-color: lightgreen;
+  padding: 7% 15%;
+  text-align: left;
+}
+.project-img{
+  width: 25%;
+  border-radius: 10%;
+  float: left;
+  margin-right: 50px;
+}
+.list{
+  font-family: 'Montserrat', sans-serif ;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.contactme{
+  background-color: lightcyan;
+  padding: 100px;
+}
+button{
+  border-color: white;
+  background-color: dodgerblue;
+  border-radius: 10px;
+  font-size: 30px;
+  
+
+}
+button:hover{
+  background-color: blue;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.end{
+  color: black;
+  padding-top: 40px;
+}
+
+footer{
+  background-color: lightseagreen;
+  padding: 40px;
+  
+}
